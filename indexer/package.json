@@ -1,0 +1,25 @@
+{
+  "name": "crypto-credit-indexer",
+  "version": "1.0.0",
+  "description": "Indexer service for aggregating on-chain data for credit scoring",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "web3": "^4.3.0",
+    "pg": "^8.11.3",
+    "@apollo/client": "^3.8.0",
+    "graphql": "^16.8.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3",
+    "nodemon": "^3.0.1"
+  }
+}
